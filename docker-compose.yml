@@ -1,0 +1,8 @@
+#Dcoker compose
+services:
+  app:
+      build: .
+      ports:
+        - 8000:3000
+  mongodb:
+      image: mongo
